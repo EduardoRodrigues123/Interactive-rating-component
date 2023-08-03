@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | Interactive rating component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  
+</head>
+<body>
+   <main class="container-principal">
+        <!-- Rating state start -->
+
+       <h1><img src="images/icon-star.svg" alt="Um icone de uma estrela" class="estrela"></h1> 
+
+      <h1 class="titulo">How did we do?</h1>
+
+      <p class="paragrafo">Please let us know how we did with your support request. All feedback is appreciated 
+      to help us improve our offering!</p>
+
+      <div class="container-numeros">
+        <p class="numeros" tabindex="0">1</p>
+        <p class="numeros" tabindex="0">2</p>
+        <p class="numeros" tabindex="0">3</p>
+        <p class="numeros" tabindex="0">4</p>
+        <p class="numeros" tabindex="0">5</p>
+      </div>
+      
+
+      <button class="botao-enviar" id="enviar-avaliacao">Submit</button>
+
+      <!-- Rating state end -->
+   </main>
+
+
+
+    <!-- Thank you state start -->
+    <div class="container-feedback hidden">
+      
+      <img src="images/illustration-thank-you.svg" alt="Imagem de agradecimento" class="Imagem">
+      <p class="paragrafo-selecionador">  You selected <span id="rating"></span> out of 5 </p>
+
+      <h2 class="titulo-agradecimento">Thank you!</h2>
+      <p class="paragrafo">We appreciate you taking the time to give a rating. If you ever need more support, 
+  don’t hesitate to get in touch!</p>
+</div>
+      
+  
+
+  <!-- Thank you state end -->
+  
+  
+  <script src="main.js"></script>
+</body>
+</html>
